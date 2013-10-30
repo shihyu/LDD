@@ -1,0 +1,1 @@
+cmd_/home/shihyu/LDD/TW-samples/chap4/driver1/hello.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.5.0-39-generic/scripts/module-common.lds --build-id  -o /home/shihyu/LDD/TW-samples/chap4/driver1/hello.ko /home/shihyu/LDD/TW-samples/chap4/driver1/hello.o /home/shihyu/LDD/TW-samples/chap4/driver1/hello.mod.o
