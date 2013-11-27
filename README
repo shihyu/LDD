@@ -1,3 +1,10 @@
+//找不到 build 安裝 linux-headers
+sudo apt-get install linux-headers-`uname -r`
+
+helloworld.c
+
+echo "obj-m := helloworld.o" > Makefile
+
 make -Wall -C /lib/modules/`uname -r`/build M=`pwd` modules  
 
 make -Wall -C /lib/modules/`uname -r`/build M=`pwd` clear
